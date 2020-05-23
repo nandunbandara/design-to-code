@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    color: white;
+    z-index: 100;
+}
+
+.navbar .nav-wrapper {
+    padding: 40px;
+}
+
+.navbar .brand {
+    display: inline-block;
+    margin: 0 100px 0px 80px;
+    font-size: 24px;
+}
+
+.navbar .nav {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.navbar .nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navbar .login {
+    display: inline-block;
+    margin-right: 40px;
+    float: right;
+}
+
+.btn {
+    min-width: 64px;
+    min-height: 48px;
+    padding: 12px 60px;
+    border: none;
+    background: rgb(254,109,74);
+    background: linear-gradient(117deg, rgba(254,109,74,1) 16%, rgba(255,58,125,1) 67%);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 5px 21px -3px rgba(0,0,0,0.46); 
+    box-shadow: 0px 5px 21px -3px rgba(0,0,0,0.16);
+}
+
+/* Polygon */
+.background-polygon {
+    background: rgb(254,109,74);
+    background: linear-gradient(117deg, rgba(254,109,74,1) 16%, rgba(255,58,125,1) 67%);
+    width: 70%;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    clip-path: polygon(0 0, 100% 0%, 80% 90%, 0% 100%);
+}
+
+
+/* Banner */
