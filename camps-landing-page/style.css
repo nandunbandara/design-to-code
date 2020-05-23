@@ -80,6 +80,59 @@ body {
     clip-path: polygon(0 0, 100% 0%, 80% 80%, 0% 100%);
 }
 
+/* Circles */
+.circle-set {
+    position: absolute;
+    z-index: -80;
+}
+
+.circle-1 {
+    width: 800px;
+    height: 800px;
+    clip-path: circle(50%);
+    border: 2px dotted white;
+    background-color: #efefef;
+    opacity: 0.08;
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+.circle-2 {
+    width: 1200px;
+    height: 1200px;
+    clip-path: circle(50%);
+    border: 2px dotted white;
+    background-color: #efefef;
+    opacity: 0.04;
+    position: absolute;
+    top: -600px;
+    left: -600px;
+}
+
+.circle-3 {
+    width: 1600px;
+    height: 1600px;
+    clip-path: circle(50%);
+    border: 2px dotted white;
+    background-color: #efefef;
+    opacity: 0.02;
+    position: absolute;
+    top: -800px;
+    left: -800px;
+}
+
+.circle-4 {
+    width: 2000px;
+    height: 2000px;
+    clip-path: circle(50%);
+    border: 2px dotted white;
+    background-color: #efefef;
+    opacity: 0.02;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
+}
 
 /* Banner */
 .banner {
@@ -155,7 +208,7 @@ body {
     width: 100%;
     text-align: center;
     position: relative;
-    top: -120px;
+    top: -150px;
 }
 
 .client-logos img {
