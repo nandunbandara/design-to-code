@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap'); */
 
 * {
     padding: 0;
@@ -86,7 +86,7 @@ body {
     z-index: -80;
 }
 
-.circle-1 {
+.circle-set .circle-1 {
     width: 800px;
     height: 800px;
     clip-path: circle(50%);
@@ -98,7 +98,7 @@ body {
     left: -400px;
 }
 
-.circle-2 {
+.circle-set .circle-2 {
     width: 1200px;
     height: 1200px;
     clip-path: circle(50%);
@@ -110,7 +110,7 @@ body {
     left: -600px;
 }
 
-.circle-3 {
+.circle-set .circle-3 {
     width: 1600px;
     height: 1600px;
     clip-path: circle(50%);
@@ -122,7 +122,7 @@ body {
     left: -800px;
 }
 
-.circle-4 {
+.circle-set .circle-4 {
     width: 2000px;
     height: 2000px;
     clip-path: circle(50%);
@@ -132,6 +132,44 @@ body {
     position: absolute;
     top: -1000px;
     left: -1000px;
+}
+
+.circle-set-bottom {
+    position: absolute;
+    z-index: -80;
+}
+
+.circle-set-bottom .circle-1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    opacity: 0.1;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+.circle-set-bottom .circle-2 {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    border: 2px solid white;
+    opacity: 0.1;
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.top-circle {
+    border-radius: 50%;
+    border: 2px dashed white;
+    width: 800px;
+    height: 800px;
+    position: absolute;
+    opacity: 0.4;
+    right: 0vw;
+    top: -400px;
 }
 
 /* Banner */
@@ -208,10 +246,26 @@ body {
     width: 100%;
     text-align: center;
     position: relative;
-    top: -150px;
+    top: -100px;
 }
 
 .client-logos img {
     height: 50px;
     margin-right: 80px;
+}
+
+/* Features */
+.features {
+    width: 100%;
+}
+
+.features .text-wrapper {
+    margin-left: 150px;
+    width: 40%;
+}
+
+.section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
 }
