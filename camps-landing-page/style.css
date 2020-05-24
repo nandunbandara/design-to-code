@@ -258,6 +258,7 @@ body {
 /* Features */
 .features {
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .features .text-wrapper {
@@ -375,10 +376,71 @@ body {
 }
 
 .insight-bg-box {
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 1200px;
     position: relative;
     border-radius: 20px;
     background: rgb(254,109,74);
     background: linear-gradient(117deg, rgba(254,109,74,1) 16%, rgba(255,58,125,1) 67%);
+    transform: rotate(50deg);
+    left: -600px;
+    top: -60px;
+    z-index: -100;
+}
+
+.laptop {
+    position: absolute;
+    z-index: -80;
+    margin-top: 60px;
+    margin-left: -40px;
+}
+
+.insight-circle-set {
+    position: absolute;
+    margin-top: 200px;
+    z-index: -90;
+}
+
+.insight-circle-set .circle-1 {
+    width: 800px;
+    height: 800px;
+    clip-path: circle(50%);
+    background-color: #aaa;
+    opacity: 0.08;
+    position: absolute;
+    top: -400px;
+    left: -400px;
+}
+
+.insight-circle-set .circle-2 {
+    width: 1200px;
+    height: 1200px;
+    clip-path: circle(50%);
+    background-color: #aaa;
+    opacity: 0.04;
+    position: absolute;
+    top: -600px;
+    left: -600px;
+}
+
+.insight-circle-set .circle-3 {
+    width: 1600px;
+    height: 1600px;
+    clip-path: circle(50%);
+    background-color: #aaa;
+    opacity: 0.02;
+    position: absolute;
+    top: -800px;
+    left: -800px;
+}
+
+.insight-circle-set .circle-4 {
+    width: 2000px;
+    height: 2000px;
+    clip-path: circle(50%);
+    background-color: #aaa;
+    opacity: 0.02;
+    position: absolute;
+    top: -1000px;
+    left: -1000px;
 }
